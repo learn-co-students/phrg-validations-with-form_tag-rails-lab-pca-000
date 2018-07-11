@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
@@ -15,7 +17,7 @@ class PostsController < ApplicationController
     redirect_to post_path(@post)
   end
 
-  private
+private
 
   def post_params
     params.permit(:title, :category, :content)
