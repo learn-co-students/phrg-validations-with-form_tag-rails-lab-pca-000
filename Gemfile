@@ -10,10 +10,12 @@ gem "sdoc", "~> 0.4.0", group: :doc
 gem "sqlite3"
 gem "uglifier", ">= 1.3.0"
 
+
 group :development, :test do
   gem "capybara"
   gem "pry"
   gem "rubocop", "0.58.1"
+  gem "byebug"
 end
 
 group :development do
