@@ -38,4 +38,8 @@
    `error_explanation`, and each error should have its own `<li>`.
 1. Conditionally wrap each field in a `.field_with_errors` div if it has errors.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-validations-with-form_tag-rails-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-validations-with-form_tag-rails-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Validations with `form_tag`</p>
